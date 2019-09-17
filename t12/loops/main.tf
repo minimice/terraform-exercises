@@ -7,7 +7,7 @@ variable "accessip" {
 }
 
 variable "service_ports" {
-  default = ["22", "22"]
+  default = ["22", "443"]
 }
 
 resource "aws_vpc" "tf_vpc" {
